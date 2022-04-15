@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+a, a:hover {
+    color:unset;
+    text-decoration: none;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    
+}
+
+.nav-container {
+    background-color: #F03C42;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.nav-1 {
+    font-size: 18px;
+    width: 100%;
+    max-width: 960px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.nav-1 a {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    text-decoration: none;
+   
+    
+}
+
+.Div-1  { 
+    display: flex;
+    align-items: center;       
+}
+
+.ul-1 {
+    margin-right:40px;
+    list-style-type: none;
+    display: flex;
+}
+
+.fitness-container {
+    padding: 20px 40px;
+    font: size 32px; 
+    color: white;
+    background-color: #222374;
+    display: flex;
+    flex-direction: column;    
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    align-items: center;
+}
+
+.h3 {
+    margin: 20px;
+    background-color:#CCCCCC ;
+    display: flex;
+    color:black ;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.h3 p {
+    font-size: 14px;
+    color: black;
+    flex-direction: column;
+}
+
+.modalidades-container  {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+   background-color: #FFFFFF;
+   padding: 20px ;
+   font-size: 32px;
+   color: #F03C42;
+   display: flex;
+}
+
+.modalidades {
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #222374;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.modalidades p {
+    font-size: 14px;
+    padding: 20px ;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+
+footer {
+    padding: 60px 60px;
+    height: 262px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
